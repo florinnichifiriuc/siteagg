@@ -1,7 +1,11 @@
 # siteagg
-site aggregator
+Site aggregator
 
-You are to make a website aggregator application. The purpose of the application is to allow users to share, discuss and rate pages they find on the internet. You are provided with some starter code which displays a simple list of websites. You can gain up to 70% by implementing the following features:
+You are to make a website aggregator application.
+
+The purpose of the application is to allow users to share, discuss and rate pages they find on the internet.
+
+You are provided with some starter code which displays a simple list of websites.
 
 1. Users can register and login.
 2. Users can post new websites if they are logged in. Websites posted by users should have an URL and a description.
