@@ -110,6 +110,12 @@ if (Meteor.isClient) {
             } else {
                 return 'disabled';
             }
+        },
+        votesUp: function () {
+            return this.upvoters && this.upvoters.length || 0;
+        },
+        votesDown: function () {
+            return this.downvoters && this.downvoters.length || 0;
         }
     });
     Template.website_form.helpers({

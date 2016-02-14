@@ -146,9 +146,14 @@
         <a href="#" class="btn btn-default js-upvote {{upvoteAllowClass}}">
             <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
         </a>
+
+        <span class="label label-success">Votes up:<span class="badge">{{votesUp}}</span></span>
         <a href="#" class="btn btn-default js-downvote {{downvoteAllowClass}}">
             <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
         </a>
+
+        <span class="label label-danger">Votes down:<span class="badge">{{votesDown}}</span></span>
+
         {{#unless currentUser}}
             <label class="label label-warning" role="alert">You need to be logged in in order to vote</label>
         {{/unless}}
